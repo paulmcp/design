@@ -1,0 +1,2 @@
+C:\nativescript\design\platforms\android\src\main\assets\app\pages\Activity\Activity.js
+C:\nativescript\design\platforms\android\src\main\assets\app\pages\Ask\Ask.js

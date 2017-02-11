@@ -1,0 +1,21 @@
+<Page xmlns='http://www.nativescript.org/tns.xsd' loaded='pageLoaded'>
+<Page.actionBar>
+	<ActionBar title='Welcome Activity'>
+	    <NavigationButton text='Go Back' android.systemIcon='ic_menu_back' tap='onNavBtnTap'/>
+	</ActionBar>
+	</Page.actionBar>
+    <StackLayout>
+        <Label text="Listview" class="title" />
+        <!--<Button text="Listview" tap="tapListview" />-->
+          <ListView items="{{ items }}">
+    <ListView.itemTemplate>
+      <StackLayout>
+        <Image src="{{ image7 }}" height="100" width="100" horizontalAlignment="left"/>
+        <Label text="{{ title1 }}" margin="5 10" horizontalAlignment="center"/>
+        <Label text="{{ title2 }}" margin="5 10" horizontalAlignment="left"/>
+        <Label text="{{ item7 }}" margin="5 10" horizontalAlignment="left"/>
+      </StackLayout>
+    </ListView.itemTemplate>
+  </ListView>
+    </StackLayout>
+</Page>

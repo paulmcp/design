@@ -1,0 +1,137 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+.fa {
+  font-family: FontAwesome, fontawesome-webfont;
+  font-size:30;
+}
+
+.ion {
+  font-family: Ionicons, ionicons;
+  font-size:30;
+}
+
+action-bar {
+  background-color: #053140;
+  color: white;
+}
+
+.notworking {
+  background-color: #053140;
+  color: white;
+}
+
+label {
+  margin: 5;
+}
+.drawer-content {
+  background-color: #053140;
+  color: white;
+  padding-top: 20;
+}
+.drawer-content label {
+  font-size: 20;
+  margin: 10 0 15 25;
+}
+.selected {
+  color: #e4ba4e;
+}
+
+Page {
+    background-color: white;
+}
+
+ListView {
+    margin: 0 10 0 10;
+}
+
+.title {
+    margin: 10;
+    font-size: 32;
+    color: #3c3c3c;
+    horizontal-align: center;
+}
+
+.title2 {
+    margin: 5;
+    font-size: 12;
+    color: #3c3c3c;
+    horizontal-align: left;
+}
+
+.detail-title {
+    margin: 10;
+    font-size: 26;
+    color: #3c3c3c;
+    horizontal-align: center;
+}
+
+.listItem {
+    margin: 10;
+    horizontal-align: center;
+    color: #808080;
+    font-size: 20;
+}
+
+.info {
+    margin: 10;
+    font-size: 20;
+    color: #808080;
+}
+
+ActionBar {
+    color: white;
+    background-color: #ff0000;
+}
+
+/*Page {
+    background-color: white;
+    font-size: 17;
+}*/
+
+/*Label {
+    padding-left: 10;
+    padding-right: 10;
+    height: 30;
+}*/
+
+.openButton {
+    background-color: #ff0000;
+    color: white;
+}
+
+
+.pick-page {
+    background-color: darkslategray;
+    font-size: 14;
+}
+
+.details-page {
+    background-color: darkslategray;
+    font-size: 24;
+}
+
+.cell-view {
+    border-width: 1;
+    border-color: lightgray;
+}
+
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+
+@import 'nativescript-theme-core/css/core.light.css';
+*/

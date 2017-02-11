@@ -1,0 +1,9 @@
+<Page xmlns='http://www.nativescript.org/tns.xsd' loaded='pageLoaded'>
+<Page.actionBar>
+	<ActionBar title='Welcome Photos'>
+	    <NavigationButton text='Go Back' android.systemIcon='ic_menu_back' tap='onNavBtnTap'/>
+	</ActionBar>
+	</Page.actionBar>
+    <StackLayout>
+    </StackLayout>
+</Page>

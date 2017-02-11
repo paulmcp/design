@@ -1,0 +1,72 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page.actionBar>
+	<ActionBar title="Design" >
+	    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+	</ActionBar>
+</Page.actionBar>
+	<StackLayout>
+		<ScrollView>
+			<StackLayout>
+				<Button text="About" tap="onTapAbout" class="MenuItem" />
+				<Button text="Activity Feeds" tap="onTapActivity" class="MenuItem" />
+				<Button text="Ask Permission" tap="onTapAsk" class="MenuItem" />
+				<Button text="Book" tap="onTapBook" class="MenuItem" />
+				<Button text="Bots/Conversations" tap="onTapBots" class="MenuItem" />
+				<Button text="Browser" tap="onTapBrowser" class="MenuItem" />
+				<Button text="Calculators" tap="onTapCalculators" class="MenuItem" />
+				<Button text="Calendars & Time" tap="onTapCalendars" class="MenuItem" />
+				<Button text="Capture" tap="onTapCapture" class="MenuItem" />
+				<Button text="Cards" tap="onTapCards" class="MenuItem" />
+				<Button text="Charts" tap="onTapCharts" class="MenuItem" />
+				<Button text="Check In" tap="onTapCheckIn" class="MenuItem" />
+				<Button text="Checkout" tap="onTapCheckOut" class="MenuItem" />
+				<Button text="Coach Marks" tap="onTapCoach" class="MenuItem" />
+				<Button text="Comments" tap="onTapComments" class="MenuItem" />
+				<Button text="Confirmation" tap="onTapConfirmation" class="MenuItem" />
+				<Button text="Content Screen" tap="onTapContent" class="MenuItem" />
+				<Button text="Coverpage" tap="onTapCoverpage" class="MenuItem" />
+				<Button text="Create Post" tap="onTapCreate" class="MenuItem" />
+				<Button text="Discovery" tap="onTapDiscovery" class="MenuItem" />
+				<Button text="Empty States" tap="onTapEmpty" class="MenuItem" />
+				<Button text="Events" tap="onTapEvents" class="MenuItem" />
+				<Button text="Filter" tap="onTapFilter" class="MenuItem" />
+				<Button text="Find Friends" tap="onTapFind" class="MenuItem" />
+				<Button text="Friends" tap="onTapFriends" class="MenuItem" />
+				<Button text="Grid" tap="onTapGrid" class="MenuItem" />
+				<Button text="Home" tap="onTapHome" class="MenuItem" />
+				<Button text="Invite Friends" tap="onTapInvite" class="MenuItem" />
+				<Button text="Library" tap="onTapLibrary" class="MenuItem" />
+				<Button text="Lists" tap="onTapLists" class="MenuItem" />
+				<Button text="Loading" tap="onTapLoading" class="MenuItem" />
+				<Button text="Logins" tap="onTapLogins" class="MenuItem" />
+				<Button text="Maps" tap="onTapMaps" class="MenuItem" />
+				<Button text="Messaging" tap="onTapMessaging" class="MenuItem" />
+				<Button text="Navigations" tap="onTapNavigations" class="MenuItem" />
+				<Button text="News" tap="onTapNews" class="MenuItem" />
+				<Button text="Notifications" tap="onTapNotifications" class="MenuItem" />
+				<Button text="Photos" tap="onTapPhotos" class="MenuItem" />
+				<Button text="Popovers" tap="onTapPopovers" class="MenuItem" />
+				<Button text="Privacy" tap="onTapPrivacy" class="MenuItem" />
+				<Button text="Product" tap="onTapProduct" class="MenuItem" />
+				<Button text="Profiles" tap="onTapProfiles" class="MenuItem" />
+				<Button text="Progress" tap="onTapProgress" class="MenuItem" />
+				<Button text="Purchase" tap="onTapPurchase" class="MenuItem" />
+				<Button text="Recipe" tap="onTapRecipe" class="MenuItem" />
+				<Button text="Recording" tap="onTapRecording" class="MenuItem" />
+				<Button text="Search" tap="onTapSearch" class="MenuItem" />
+				<Button text="Settings" tap="onTapSettings" class="MenuItem" />
+				<Button text="Share" tap="onTapShare" class="MenuItem" />
+				<Button text="Shopping Cart" tap="onTapShopping" class="MenuItem" />
+				<Button text="Sidebars" tap="onTapSidebars" class="MenuItem" />
+				<Button text="Signups" tap="onTapSignups" class="MenuItem" />
+				<Button text="Storefront" tap="onTapStorefront" class="MenuItem" />
+				<Button text="Tab bars" tap="onTapTab" class="MenuItem" />
+				<Button text="Timeline" tap="onTapTimeline" class="MenuItem" />
+				<Button text="Venue" tap="onTapVenue" class="MenuItem" />
+				<Button text="Video" tap="onTapVideo" class="MenuItem" />
+				<Button text="Walkthroughs" tap="onTapWalkthroughs" class="MenuItem" />
+				<Button text="Widgets" tap="onTapWidgets" class="MenuItem" />
+			</StackLayout>
+		</ScrollView>
+	</StackLayout>
+</Page>

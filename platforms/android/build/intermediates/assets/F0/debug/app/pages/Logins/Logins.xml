@@ -1,0 +1,41 @@
+<!--<Page xmlns='http://www.nativescript.org/tns.xsd' loaded='pageLoaded'>
+<Page.actionBar>
+	<ActionBar title='Welcome Logins'>
+	    <NavigationButton text='Go Back' android.systemIcon='ic_menu_back' tap='onNavBtnTap'/>
+	</ActionBar>
+	</Page.actionBar>
+    <StackLayout>
+    </StackLayout>
+</Page>-->
+<Page loaded="pageLoaded" 
+	navigatingTo="onNavigatingTo"
+	actionBarHidden="true">
+	<ScrollView>
+      <StackLayout orientation="vertical" verticalAlignment="top"  id="intro-elements" height="100%">
+         <Image src="~/images/tagline.png" stretch="none" horizontalAlignment="center" cssClass="intro-text-one-intro" />
+         <StackLayout cssClass="" orientation="vertical" style="margin-top:150;" height="100%">
+            <Button class="intro-get-started-intro"
+               text="LOG IN"
+               backgroundColor="#d03535"
+               color="white"
+               height="55"
+               width="90%"
+               fontSize="20"
+               tap="login_page" />
+           
+
+            <Button id="intro-version"
+               class="intro-version-intro"
+               text="SIGN UP"
+               backgroundColor="#fff8cd"
+               color="#d03535"
+               height="55"
+               width="90%"
+               fontSize="20"
+               tap="sign_page" />
+         </StackLayout>
+
+      </StackLayout>
+      
+	</ScrollView>
+</Page>
